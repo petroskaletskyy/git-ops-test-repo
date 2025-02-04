@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: simpla-app
-          image: testacrflaskapp.azurecr.io/flask-app:lite
+          image: testacrflaskapp.azurecr.io/flask-app:full
           ports:
             - containerPort: 5000
           resources:
